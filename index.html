@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="/Hangman/hangmanStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Programmers Hangman</h1>
+      <div class="hangmanContainer">
+        <div class="hangman">
+          <div class="head"></div>
+          <div class="body"></div>
+          <div class="leftArm"></div>
+          <div class="rightArm"></div>
+          <div class="leftLeg"></div>
+          <div class="rightLeg"></div>
+        </div>
+      </div>
+      <div class="wordContainer">
+        <div class="word">
+          <p id="guessedWord"></p>
+        </div>
+      </div>
+      <div class="letters">
+        <button id="a">a</button>
+        <button id="b">b</button>
+        <button id="c">c</button>
+        <button id="d">d</button>
+        <button id="e">e</button>
+        <button id="f">f</button>
+        <button id="g">g</button>
+        <button id="h">h</button>
+        <button id="i">i</button>
+        <button id="j">j</button>
+        <button id="k">k</button>
+        <button id="l">l</button>
+        <button id="m">m</button>
+        <button id="n">n</button>
+        <button id="o">o</button>
+        <button id="p">p</button>
+        <button id="q">q</button>
+        <button id="r">r</button>
+        <button id="s">s</button>
+        <button id="t">t</button>
+        <button id="u">u</button>
+        <button id="v">v</button>
+        <button id="w">w</button>
+        <button id="x">x</button>
+        <button id="y">y</button>
+        <button id="z">z</button>
+      </div>
+      <div class="numberOfLivesContainer">
+        <span id="lives"></span>
+      </div>
+      <div class="popupContainer" id="popupContainer">
+        <div class="popup" id="popup">
+          <h2 id="message"></h2>
+          <button id="play">Start</button>
+        </div>
+      </div>
+      <div class="notificationContainer" id="notificationContainer">
+        <p id="notification"></p>
+      </div>
+    </div>
+    <script src="/Hangman/hangmanCode.js"></script>
+  </body>
+</html>
